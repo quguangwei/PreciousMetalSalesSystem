@@ -19,7 +19,7 @@ export default class OrderItem {
 
 	getKindSum(){
 		this.subTotal = this.price * this.amount;
-		return {"afterSum":}
+		//return {"afterSum":}
 	}
 
   toString() {
