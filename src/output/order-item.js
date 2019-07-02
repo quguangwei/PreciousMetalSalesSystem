@@ -1,3 +1,4 @@
+
 export default class OrderItem {
 
   /**
@@ -15,6 +16,11 @@ export default class OrderItem {
     this.amount = amount || 0;
     this.subTotal = subTotal || 0;
   }
+
+	getKindSum(){
+		this.subTotal = this.price * this.amount;
+		return {"afterSum":}
+	}
 
   toString() {
     return `(${this.productNo})${this.productName}x${this.amount}, ${this.price.toFixed(2)}, ${this.subTotal.toFixed(2)}`;

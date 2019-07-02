@@ -1,3 +1,5 @@
+import { discountType } from './discount-map';
+
 export default class DiscountItem {
   /**
    * 销售凭证中的优惠项
